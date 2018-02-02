@@ -37,15 +37,29 @@
 	<meta name="og:region" content="PA"/>
 	<meta name="og:postal-code" content="19148"/>
 	<meta name="og:country-name" content="USA"/>
+  
 	<style type="text/css">
+    @font-face {
+      font-family: 'NFLEndzoneSlabBold';
+      src: url('endzoneslabbold.ttf') format('truetype');
+    }
+    @keyframes bounceIn{0%,20%,40%,60%,80%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{opacity:1;transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{opacity:1;transform:scaleX(1)}}
 		body {
-			background-color: #014A53;
+			background-color: #014a53;
 			color: #fff;
 		}
 		h1 {
-			font-size: 20em;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: calc(50% - 0.5em);
+      margin: 0;
+      padding: 0;
+      font: bold 20em/1 'NFLEndzoneSlabBold', 'Open Sans', Arial;
 			text-align: center;
-			font-family: Arial;
+      text-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+      animation-name: bounceIn;
+      animation-duration: 750ms;
 		}
 	</style>
 </head>
