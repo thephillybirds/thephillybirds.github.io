@@ -1,6 +1,6 @@
 # Super Bowl Champs or Chumps?
 
-Have the Eagles ever won a super bowl? Nope
+Have the Eagles ever won a super bowl? YUP!
 
 ## This is the year!
 
